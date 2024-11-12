@@ -7,8 +7,8 @@
 }
 
 :root{
-    --primary-color: #f5cf06;
-    --secundary-color: #8e4106;
+    --primary-color: #0a1330ea;
+    --secundary-color: #4525b8;
 }
 
 body{
@@ -97,9 +97,11 @@ main{
 }
 .pikachu-image{
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 1000px;
+    height: auto;
 }
 
 @media(max-width:960px){
